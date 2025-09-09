@@ -1,0 +1,109 @@
+.task-list {
+  margin-top: 20px;
+}
+
+.task-list-title {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border: 2px solid #e1e1e1;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  background-color: #fafafa;
+  transition: all 0.3s ease;
+}
+
+.task-item:hover {
+  border-color: #ccc;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task-item.completed {
+  background-color: #f1f8e9;
+  border-color: #4CAF50;
+}
+
+.task-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.task-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.task-title.done {
+  text-decoration: line-through;
+  color: #666;
+  opacity: 0.7;
+}
+
+.task-date {
+  color: #888;
+  font-size: 12px;
+}
+
+.toggle-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.toggle-button.mark-done {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.toggle-button.mark-done:hover {
+  background-color: #45a049;
+  transform: translateY(-1px);
+}
+
+.toggle-button.mark-undone {
+  background-color: #ff9800;
+  color: white;
+}
+
+.toggle-button.mark-undone:hover {
+  background-color: #f57c00;
+  transform: translateY(-1px);
+}
+
+.no-tasks {
+  text-align: center;
+  color: #666;
+  font-size: 18px;
+  margin: 40px 0;
+  padding: 40px;
+  background-color: #fafafa;
+  border-radius: 8px;
+  border: 2px dashed #ccc;
+}
+
+@media (max-width: 600px) {
+  .task-item {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+  
+  .toggle-button {
+    width: 100%;
+  }
+}
