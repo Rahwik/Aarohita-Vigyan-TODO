@@ -1,0 +1,82 @@
+.task-filters {
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #e2e8f0;
+}
+
+
+.task-filters h3 {
+  margin: 0 0 16px 0;
+  color: #e2e8f0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+
+.filter-group {
+  margin-bottom: 16px;
+}
+
+.filter-group:last-child {
+  margin-bottom: 0;
+}
+
+.filter-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #a0aec0;
+  font-size: 14px;
+}
+
+
+.filter-group input,
+.filter-group select {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  font-size: 14px;
+  background: rgba(0, 0, 0, 0.4);
+  color: #e2e8f0;
+  transition: border-color 0.3s;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+
+.filter-group input:focus,
+.filter-group select:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+.clear-filters-button {
+  width: 100%;
+  padding: 8px 16px;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 12px;
+}
+
+.clear-filters-button:hover {
+  background-color: #ff5252;
+}
+
+@media (max-width: 768px) {
+  .task-filters {
+    padding: 16px;
+  }
+}
