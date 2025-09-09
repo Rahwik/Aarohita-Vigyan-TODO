@@ -103,43 +103,6 @@ TaskCraft is a sophisticated task management application that combines Django's 
 4. **Open your browser**
    Navigate to `http://localhost:3000`
 
-
-## Styling Examples
-
-### Glass Morphism Effect
-```css
-.hero-actions {
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-radius: 16px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-}
-```
-
-### Dark Theme with Dotted Background
-```css
-.dotted-bg {
-  background: #000000;
-  background-image: radial-gradient(
-    circle, 
-    rgba(255, 255, 255, 0.3) 2px, 
-    transparent 2px
-  );
-  background-size: 30px 30px;
-  background-attachment: fixed;
-}
-```
-
-### Button Hover Effects
-```css
-.primary-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(99, 102, 241, 0.3);
-  transition: all 0.3s ease;
-}
-```
-
 ## Project Structure
 
 ```
