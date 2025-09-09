@@ -2,7 +2,14 @@
 
 <div align="center">
 
-![TaskCraft Logo](frontend/src/assets/icons/NavBar.png)
+<div align="center">
+
+![TaskCraft Interface](https://github.com/Rahwik/Aarohita-Vigyan-TODO/blob/main/UI%20Images/Screenshot%202025-09-09%20111640.png)
+![TaskCraft Interface](https://github.com/Rahwik/Aarohita-Vigyan-TODO/blob/main/UI%20Images/Screenshot%202025-09-09%20111718.png)
+![TaskCraft Interface](https://github.com/Rahwik/Aarohita-Vigyan-TODO/blob/main/UI%20Images/Screenshot%202025-09-09%20112058.png)
+
+
+</div>
 
 **A modern, full-stack task management application built with Django REST API and React**
 
